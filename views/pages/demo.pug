@@ -1,7 +1,21 @@
-html 
-    head 
-        link(rel = "stylesheet", href = "css/demo.css")
-    body 
-        script(src = "client.js")
-        div 
-            video#myVidPlayer(controls muted autoplay)
+doctype html
+html(lang="en")
+
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+
+    //- Separate closing tag for link
+    link(rel="stylesheet", href="/css/demo.css")
+
+body
+    div
+        video#vid
+
+    br
+
+    button#but(autoplay)
+        | Open WebCam
+
+    script(src="/js/client.js")
