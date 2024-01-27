@@ -13,5 +13,9 @@ app.get('/home', (req, res) => {
     res.status(200).render('home');
 });
 
+app.get('/monitoring', (req,res) => {
+    res.status(200).render('monitoring');
+});
+
 app.listen(3000);
 console.log('Server running on port 3000...');
