@@ -5,17 +5,13 @@ head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
-
-    //- Separate closing tag for link
     link(rel="stylesheet", href="/css/demo.css")
 
 body
-    div
+    div(class = "videoBorder")
         video#vid
-
-    br
-
     button#but(autoplay)
         | Open WebCam
-
+    div 
+        div(class = "popup")
     script(src="/js/client.js")
