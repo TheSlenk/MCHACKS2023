@@ -2,14 +2,13 @@
 .videoBorder {
     position: absolute;
     margin-top: 5%;
-    margin-left: 15%;
-    width: 70%;
-    height: 600px;
-    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 80%;
 }
 
 body{
-    background-color: #363636;
+    background-color: #272727;
 }
 
 /* Video styles */
@@ -77,4 +76,17 @@ video {
 
 .popup-hidden {
     display: none;
+}
+
+.back-button{
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: #272727;
+    border-radius: 25px;
 }

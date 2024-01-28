@@ -1,0 +1,18 @@
+html  
+head 
+    title= title
+    link(rel='stylesheet', href='/css/homepage.css')
+body
+    block content
+    script(src='/js/client.js')
+
+    div(class="homepage-background")
+        video(id="vid", autoplay="true", loop="true", muted="true", playsinline="true", src="homepage2.mp4")
+        
+    img(id="cam-img" src="cam.png", alt="")
+
+    div(class = "homepage-block")
+    h1(class="title") Constructive Chaos
+
+    buttom(class="demo-button", onclick="window.location.href='/demo'") Demo
+

@@ -11,6 +11,16 @@ app.use(express.static(path.join(__dirname, 'views/pages')));
 app.get('/', async function (req, res) {
     try {
         const data = req.query;
+        res.render('pages/home', data);
+    } catch (error) {
+        console.error('Error getting home page: ', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+app.get('/demo', async function (req, res) {
+    try {
+        const data = req.query;
         res.render('pages/demo', data);
     } catch (error) {
         console.error('Error getting demo page: ', error);
