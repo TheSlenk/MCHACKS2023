@@ -60,6 +60,17 @@ html{
     transform: translate(-50%, -50%);
 }
 
+p{
+    font-size: 20px;    
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .demo-button{
     width: 150px;
     height: 50px;
