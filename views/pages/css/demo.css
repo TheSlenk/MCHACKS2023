@@ -29,6 +29,10 @@ video {
     font-size: 450%;
 }
 
+.cameraButton{
+    transition: 0.15s ease-in-out;
+}
+
 .cameraButton:hover{
     cursor:pointer;
     opacity: 60%;
@@ -69,4 +73,8 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2; /* Ensure the popup appears above the video */
+}
+
+.popup-hidden {
+    display: none;
 }

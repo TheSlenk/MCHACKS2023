@@ -10,7 +10,8 @@ app.use(express.static(path.join(__dirname, 'views/pages')));
 
 app.get('/', async function (req, res) {
     try {
-        res.render('pages/demo');
+        const data = req.query;
+        res.render('pages/demo', data);
     } catch (error) {
         console.error('Error getting demo page: ', error);
         res.status(500).send('Internal Server Error');
