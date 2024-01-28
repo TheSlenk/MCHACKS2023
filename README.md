@@ -1,1 +1,1 @@
-https://theslenk.github.io/MCHACKS2023/
+[https://theslenk.github.io/MCHACKS2023/](https://htmlpreview.github.io/?https://github.com/TheSlenk/MCHACKS2023/blob/main/root/index.html)https://htmlpreview.github.io/?https://github.com/TheSlenk/MCHACKS2023/blob/main/root/index.html
